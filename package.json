@@ -1,0 +1,22 @@
+{
+  "name": "groupmirror",
+  "version": "0.0.1",
+  "description": "web code editor with network group editing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "code",
+    "editor",
+    "socket.io",
+    "codemirror"
+  ],
+  "author": "Chase Lee <kifhan@gmail.com> (http://www.rellat.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
